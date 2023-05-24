@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import ModalNavbar from './Modal';
-import Prepa from '../../../pages/Prepa';
+
 
 const NavbarFix = () => {
   return (
@@ -41,7 +41,7 @@ const NavbarFix = () => {
                     Secundaria
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item className="navbar__links-subitem" href='#'>
+                <NavDropdown.Item className="navbar__links-subitem" href='prepa.html'>
                     Prepa en Línea
                 </NavDropdown.Item>
                 </NavDropdown>

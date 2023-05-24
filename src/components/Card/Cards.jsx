@@ -28,7 +28,7 @@ const Cards = ({ imagePreescolar, imagePrimaria, imageSecundaria, imagePreparato
                 iconoText={'Presencial'}
                 />
             </a>
-            <a className="card__animate" href="#">
+            <a className="card__animate" href="prepa.html">
                 <Card
                 image={imagePreparatoria}
                 paragraph= {'Preparatoria'}
