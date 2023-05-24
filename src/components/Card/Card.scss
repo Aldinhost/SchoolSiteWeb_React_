@@ -1,0 +1,48 @@
+.card__animate:hover{
+    filter: brightness(1.8);
+    // filter: drop-shadow(-2px 0px 18px #dbdbdb);
+}
+
+.card__container{
+    width: 42rem;
+    height: 40rem;
+    padding: 3px;
+    position: relative;
+    transition: all 0.3s ease;
+    transform: scale(1);
+}
+
+
+
+.card__content-paragraph{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #ff6100;
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    padding: 0.1rem 3rem;
+    border-radius: 18px;
+}
+
+.card__content-icon{
+    
+    img{
+        position: absolute;
+        top: 7%;
+        right: 7%;
+        width: 12%;
+    }
+
+    p{
+        position: absolute;
+        top: 20%;
+        right: 3%;
+        width: 16%;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+}

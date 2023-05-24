@@ -1,0 +1,28 @@
+
+.oferta__title{
+    margin-top: 4rem;
+    padding: 10rem 5rem 0 5rem;
+}
+
+
+
+.oferta__paragraph{
+    text-align: left;
+    margin: 0 0 1rem 0;
+    font-size: 1.8rem;
+    padding: 0 5rem;
+    font-weight: 400;
+    font-style: italic;
+    width: 99%;
+    color: #9c9c9c;
+}
+
+.cards__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0rem;
+    justify-content: center;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    margin-bottom: 12rem;
+}

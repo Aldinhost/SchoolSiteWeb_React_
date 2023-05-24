@@ -1,0 +1,78 @@
+:root {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 16px;
+  
+    color: #464646;
+    background-color: rgb(253, 253, 253);
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  a {
+    font-weight: 500;
+    color: #002EC7;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ff6100;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 3.2rem;
+    line-height: 1.1;
+  }
+
+  h2 {
+    line-height: 1.1;
+    color: #ff6100;
+    text-align: left;
+    margin: 7rem 0 3rem 0;
+    font-size: 3rem;
+    padding-left: 2rem;
+    font-weight: 600;
+  }
+
+  li{
+    list-style: none;
+  }
+  
+
+  .nav__btn {
+      background-color: #002EC7;
+      color: #fff;
+      padding: 0.7rem 2rem;
+      border-radius: 50px;
+      border: 3px solid #fff;
+      text-decoration: none;
+      font-weight: 600;
+      min-width: 10%;
+      transition: 0.3s ease;
+  }
+  .nav__btn:hover {
+    background-color: #fff;
+    color: #002EC7;
+    border: 3px solid #002EC7;
+  }
+
+  main{
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .oferta__bg{
+    background-image: radial-gradient(#e7e7e7 2.5px, transparent 2.5px);
+    background-size: 69px 69px;
+    background-color: #ffffff;
+}
+  
